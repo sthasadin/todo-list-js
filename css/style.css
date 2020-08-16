@@ -23,3 +23,23 @@ header, form{
   justify-content: center;
   align-items: center;
 }
+
+form input, form button{
+  padding:0.5rem;
+  font-size: 2rem;
+  border:none;
+  background: white;
+}
+
+form button{
+  color: #e63946;
+  background: white;
+  cursor: pointer;
+  transition: all 1 ease;
+}
+
+form button:hover{
+  background:#e63946;
+  color:white;
+
+}

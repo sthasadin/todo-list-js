@@ -10,5 +10,9 @@ todoButton.addEventListener('click', addTodo);
 function addTodo(event){
   //prevent the form from submitting and the window refreshing
   event.preventDefault();
-  console.log('hellow ');
+  //creating todo div
+  const todoDiv = document.createElement('div');
+  todoDiv.classList.add('todo'); //creating a class in the todoDiv
+
+ 
 }
